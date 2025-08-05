@@ -1,0 +1,147 @@
+ body{
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background-image: url(https://images.adsttc.com/media/images/5011/f446/28ba/0d5f/4c00/0691/large_jpg/stringio.jpg?1414280938);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: rgb(255, 255, 255);
+ }
+
+header{
+  background-color: #dddddd;
+  padding: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+ }
+
+ header a{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  margin: 0 10px;
+
+   &:hover{
+    opacity: 0.5;
+  }
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #4444aa;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+footer{
+  background-color: #000000;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+ }
+
+ table{
+   border-collapse: collapse;
+}
+
+ th, td{
+   border: 1px solid rgb(0, 0, 0);
+   text-align: center;
+   font-size: 35px;
+  background-color: #7c6d6d;
+}
+
+.element1{
+   padding: 10px;
+   margin: 0.1px;
+   position: relative;
+   top: 490px;
+ }
+.element2{
+   padding: 10px;
+   margin: 0.1px;
+   position: relative;
+   top: 380px;
+ }
+ .element3{
+   padding: 10px;
+   margin: 0.1px;
+   position: relative;
+   top: 440px;
+ }
+ .element{
+  padding: 10px;
+   margin: 0.1px;
+   position: relative;
+   top: 230px;
+ }
+
+ .schedule {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+.day {
+  background-color: #f9fed3;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 10px;
+  width: 200px;
+}
+div{
+  color: #000000;
+}
+
+h2 {
+  text-align: center;
+  color: #000000;
+  margin-bottom: 1.5em;
+}
+
+.join-form {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #f9f5ff;
+  padding: 2em;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+.join-form input,
+.join-form textarea {
+  padding: 0.7em;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 1em;
+  font-size: 1em;
+  
+}
+
+.join-form{
+  position: relative;
+   top: 80px;
+}
+.schedule{
+  position: relative;
+   top: 120px;
+}
+.courses{
+  position: relative;
+  left: 200px;
+}
+.about{
+  text-align: center;
+  color: #000000;
+}
+.school{
+  text-align: center;
+  color: #000000;
+}
+blockquote{
+  color: rgb(255, 255, 255);
+}
